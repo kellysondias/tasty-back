@@ -1,0 +1,66 @@
+{
+  "name": "nome-do-projeto",
+  "version": "1.0.0",
+  "description": "Descrição do projeto com PostgreSQL, MongoDB, CQRS, Mediator, Event Sourcing, e AWS.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "prettify": "prettier --write src/**/*.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "mongoose": "^7.0.0",
+    "sequelize": "^6.0.0",
+    "typeorm": "^0.3.0",
+    "aws-sdk": "^2.1200.0",
+    "dotenv": "^10.0.0",
+    "winston": "^3.3.3",
+    "bull": "^4.0.0",
+    "uuid": "^9.0.0",
+    "axios": "^1.0.0",
+    "graphql": "^16.0.0",
+    "micro": "^9.3.4",
+    "body-parser": "^1.20.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "prettier": "^2.0.0",
+    "@typescript-eslint/prettier": "^2.0.0",
+    "nodemon": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kellysondias/tasty-back"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "express",
+    "postgresql",
+    "mongodb",
+    "aws",
+    "cqrs",
+    "event-sourcing",
+    "docker",
+    "grafana",
+    "kibana",
+    "dockerfile",
+    "aws-sdk"
+  ],
+  "author": "Seu nome",
+  "license": "MIT"
+}
