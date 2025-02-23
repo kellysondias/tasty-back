@@ -34,7 +34,6 @@
     "eslint": "^8.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "prettier": "^2.0.0",
     "@typescript-eslint/prettier": "^2.0.0",
     "nodemon": "^2.0.0"
   },
